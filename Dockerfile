@@ -65,5 +65,6 @@ RUN apk add --no-cache --update libssl1.0 pcre && \
     ffmpeg -buildconf
     
 EXPOSE 1935
+EXPOSE 80
 
 CMD ["/usr/local/nginx/sbin/nginx"]
